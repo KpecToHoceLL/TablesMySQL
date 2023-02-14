@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-size: x-large
+}
+table {
+    text-align: center
+}
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+input[type="text"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 120px;
+}
+td {
+    background: #D8E6F3;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+#firstTable {
+    float: left;
+}
+#secondTable {
+    float: right;
+}
+#inputButton {
+    border-color: transparent;
+    background: #FFFFFF;
+    padding: 5px 5px;
+}
+.deleteButton {
+    border-color: transparent;
+    background: #FFFFFF;
+    padding: 5px 5px;
+}
